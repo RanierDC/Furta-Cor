@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 public class SnapMenuAct extends AppCompatActivity {
 
-    private ImageButton voltar;
+    private ImageButton voltar, msg1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +26,21 @@ public class SnapMenuAct extends AppCompatActivity {
             public void onClick(View v) { SnapMenuAct.this.openMainActivity();
             }
         });
+
+        this.msg1 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg1);
+        this.msg1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { SnapMenuAct.this.openMsg1Activity();
+            }
+        });
     }
 
     public void openMainActivity() {
         Intent intent = new Intent(this, MenuAct.class);
+        this.startActivity(intent);
+    }
+
+    public void openMsg1Activity() {
+        Intent intent = new Intent(this, Msg1Act.class);
         this.startActivity(intent);
     }
 }
