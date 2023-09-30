@@ -13,6 +13,36 @@
         android:theme="@style/Theme.Teste"
         tools:targetApi="31">
         <activity
+            android:name=".Msg7Act"
+            android:exported="false" />
+        <activity
+            android:name=".Msg6Act"
+            android:exported="false" />
+        <activity
+            android:name=".Msg5Act"
+            android:exported="false" />
+        <activity
+            android:name=".Msg4Act"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Msg3Act"
+            android:exported="false" />
+        <activity
+            android:name=".Msg2Act"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Msg1Act"
             android:exported="true">
             <intent-filter>

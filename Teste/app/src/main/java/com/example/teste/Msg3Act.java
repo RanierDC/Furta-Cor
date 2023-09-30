@@ -5,34 +5,31 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 
-public class Msg1Act extends AppCompatActivity {
+public class Msg3Act extends AppCompatActivity {
 
     private ImageButton voltar, menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actsnapchat1);
+        setContentView(R.layout.actsnapchat3);
 
-        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnvoltarmsg1);
+        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnvoltarmsg3);
         this.voltar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Msg1Act.this.openSnapMenu();
+                Msg3Act.this.openSnapMenu();
             }
         });
 
-        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnmenu5);
+        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnmenu7);
         this.menu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Msg1Act.this.openMainActivity();
+                Msg3Act.this.openMainActivity();
             }
         });
     }
-
     @Override
     protected void onResume() {
         super.onResume();

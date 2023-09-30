@@ -9,26 +9,26 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
-public class Msg1Act extends AppCompatActivity {
+public class Msg2Act extends AppCompatActivity {
 
     private ImageButton voltar, menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actsnapchat1);
+        setContentView(R.layout.actsnapchat2);
 
-        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnvoltarmsg1);
+        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnvoltarmsg2);
         this.voltar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Msg1Act.this.openSnapMenu();
+                Msg2Act.this.openSnapMenu();
             }
         });
 
-        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnmenu5);
+        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnmenu6);
         this.menu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Msg1Act.this.openMainActivity();
+                Msg2Act.this.openMainActivity();
             }
         });
     }

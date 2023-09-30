@@ -9,11 +9,10 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="420dp"
-        android:layout_height="44dp"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.629"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -47,7 +46,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <ImageButton
-        android:id="@+id/btnvoltarmsg"
+        android:id="@+id/btnvoltarmsg1"
         android:layout_width="70dp"
         android:layout_height="42dp"
         android:layout_alignParentLeft="true"
@@ -71,9 +70,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnvoltarmsg"
+        app:layout_constraintStart_toEndOf="@+id/btnvoltarmsg1"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/imgmsg1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="380dp"
+        android:layout_height="455dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/imagetextmsg1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
