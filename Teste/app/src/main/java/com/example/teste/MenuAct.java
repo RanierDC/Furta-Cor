@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class MenuAct extends AppCompatActivity {
 
-    private ImageButton snap, navegador, email;
+    private ImageButton snap, navegador, email, calculator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,12 @@ public class MenuAct extends AppCompatActivity {
             public void onClick(View v) { MenuAct.this.openEmailAct();
             }
         });
+
+        this.calculator= (android.widget.ImageButton)this.findViewById(R.id.btncalculadora);
+        this.calculator.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { MenuAct.this.openCalculatorAct();
+            }
+        });
     }
 
     public void openSnapMenuAct() {
@@ -53,6 +59,11 @@ public class MenuAct extends AppCompatActivity {
 
     public void openEmailAct() {
         Intent intent = new Intent(this, EmailAct.class);
+        this.startActivity(intent);
+    }
+
+    public void openCalculatorAct() {
+        Intent intent = new Intent(this, CalculatorAct.class);
         this.startActivity(intent);
     }
 
