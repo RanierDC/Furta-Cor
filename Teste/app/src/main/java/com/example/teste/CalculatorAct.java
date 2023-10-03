@@ -2,8 +2,10 @@ package com.example.teste;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,13 +23,26 @@ public class CalculatorAct extends AppCompatActivity {
         String formula = "";
         String tempFormula = "";
 
+    private ImageButton voltar;
+
         @Override
         protected void onCreate(Bundle savedInstanceState)
         {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.actcalculator);
             initTextViews();
+
+            this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu13);
+            this.voltar.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) { CalculatorAct.this.openMainActivity();
+                }
+            });
         }
+
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MenuAct.class);
+        this.startActivity(intent);
+    }
 
         private void initTextViews()
         {
