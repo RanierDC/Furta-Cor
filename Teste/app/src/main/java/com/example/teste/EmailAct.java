@@ -29,6 +29,24 @@ public class EmailAct extends AppCompatActivity {
             public void onClick(View v) { EmailAct.this.openEmailMsg1();
             }
         });
+
+        this.email2 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg2);
+        this.email2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg2();
+            }
+        });
+
+        this.email3 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg3);
+        this.email3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg3();
+            }
+        });
+
+        this.email4 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg4);
+        this.email4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg3();
+            }
+        });
     }
 
 
@@ -39,6 +57,21 @@ public class EmailAct extends AppCompatActivity {
 
     public void openEmailMsg1() {
         Intent intent = new Intent(this, Email1Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg2() {
+        Intent intent = new Intent(this, Email2Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg3() {
+        Intent intent = new Intent(this, Email3Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg4() {
+        Intent intent = new Intent(this, Email4Act.class);
         this.startActivity(intent);
     }
 
