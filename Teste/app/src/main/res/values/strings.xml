@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Teste</string>
+    <string name="internettext1"><b>Parece que você não está conectado a uma rede.</b></string>
+    <string name="internettext2">"<b>Tente: \n   • Desativar o Modo offline \n   • Ativar Dados móveis ou Wi-Fi \n   • Verificar o sinal na sua área</b>"</string>
+    <string name="emailtitle1">"Entrega de mercadorias"</string>
+    <string name="emailtitle2">"Mercadoria transportada"</string>
+    <string name="emailtitle3">"Transportadora"</string>
+    <string name="emailtitle4">"Atenção"</string>
+    <string name="emailtitle5">"Preparando a mercadoria"</string>
+    <string name="emailtitle6">"Segurança das mercadorias"</string>
+    <string name="emailtitle7">"Novos produtos Entregues"</string>
+    <string name="emailtitle8">"Horário dos funcionários"</string>
+    <string name="email1text">" Atenção especial é solicitada ao conteúdo desta mensagem, pois trata-se de um assunto delicado e sigiloso. \n No intuito de alertar e assegurar a integridade de todas as partes envolvidas, gostaria de informar sobre uma entrega de carga incomum e sensível que está prestes a ocorrer. Devo ressaltar que as informações aqui contidas são estritamente confidenciais e requerem a mais alta discrição. \n Conforme acordado, o carregamento de ferro contrabandeado, proveniente de fontes que não podem ser mencionadas abertamente, está previsto para chegar ao seu destino dentro dos próximos dias. É fundamental que todos os procedimentos de segurança sejam meticulosamente seguidos para garantir o êxito dessa operação tão delicada."</string>
+    <string name="email2text">"Vimos aqui novamente para informá-lo que sua mercadoria foi transportada e está à caminho de sua localização dentre de alguns dias. Em caso de ocorrer algum imprevisto entraremos em contato. Prentendemos entregar uma mercadoria em boas condições. \n Se tiver dúvidas solicitamos entrar em contato conosco, faremos de tudo para ajudar-lhe."</string>
+    <string name="email3text">"Olá somos a transportadora FORPORT INC, estamos enviando esta mensagem para informá-lo de que sua mercadoria já foi preparada, estamos organizando para enviar à entrega e conseguir chegar na sua localização de forma mais segura e em boas condições. Dentro de um dia, podemos dizer que estará à caminho, então entraremos em contato novamente. \n \nAgradecemos pela sua parceria e confiança."</string>
+    <string name="email4text">"Aqui é o chefe, fique em alerta, pois tem mercadorias para chegar, estou entrando em contato por esse email para avisá-lo. Quando a carga chegar agilize e arrume as coisas.\nDepois vou ver o andamento de tudo, espero não encontrar nenhum problema. Entre em contato se algo estiver fora de controle."</string>
+    <string name="email5text">"Oi somos a SOUTHERN ORG, estamos enviando esta mensagem para informá-lo de que sua mercadoria está sendo preparada. Devemos ter a mercadoria dentro de alguns dias, logo após entraremos em contanto por meio da transportadora. Esperamos que aguarde e mantenha a atenção no email. \n\nAgradecemos a sua compreensão."</string>
+    <string name="email6text">"A próxima entrega de cargas será delicada e muito importante tomar cuidado, então por medidas prenventivas colocaremos nossos seguranças para seguir essa mercadoria cuidadosamente e garantir que chegará a sua localização.\nEsperamos não ocorrer imprevistos, por isso uma alta segurança com os nossos olhares atentos nessa mercadoria.\nPor outro lado, queremos a cooperação da favela, para que não façam nada de imprudente ao ponto de prejudicar essa entrega. Caso contrário dificultará as próximas colaborações de materiais."</string>
+    <string name="email7text">"Olá, entregamos as mercadorias que foram solicitada o conteúdo desta mensagem trata-se de um assunto para informar sobre a carga.\nFoi realizada a entrega de cargas materiais importantes na favela há algumas horas. Devo ressaltar que as informações aqui contidas são estritamente confidenciais, caso haja diferenças nos produtos, pode entrar em contato conoscos prudentemente por esse email.\nDesejamos que conforme acordado, o carregamento esteja em perfeitas condições e quantidades. Agradecemos pela parceria."</string>
+    <string name="email8text">"Os funcionários entrará na favela mais tarde, para não levantarmos tanta suspeitas.\nEntraremos por volta das 00:30, então esteja com tudo pronto para agilizar os dois lados do trabalho e mantenha-nos informados sobre os moradores, ou poderá ocorrer atrasar nosso trabalho.\nAo sairmos à caminho da favela avisaremos, esperemos terminar isso o mais rápido possível. Esperamos que os dois lados sejam muito precavidos em suas ações. "</string>
+    <string name="emailgambit">"GAMBIT"</string>
+    <string name="emailforport">"FORPORT INC"</string>
+    <string name="emailmontanha">"MONTANHA.CORPORATION INDUSTRIAL DELIVERIES"</string>
+    <string name="emaildata1">"2 de mai."</string>
+    <string name="emaildata2">"26 de abr."</string>
+
+
+
+
+
 </resources>

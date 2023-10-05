@@ -5,25 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-public class NavegadorAct extends AppCompatActivity {
+public class Email7Act extends AppCompatActivity {
 
     private ImageButton voltar;
-    //TextView txt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actnavegador);
+        setContentView(R.layout.actemail7);
 
-        //txt= findViewById(R.id.textView);
-        //txt.setText(getString(R.string.internettext2));
-        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu2);
+        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu20);
         this.voltar.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NavegadorAct.this.openMainActivity();
+            public void onClick(View v) { Email7Act.this.openMainActivity();
             }
         });
     }

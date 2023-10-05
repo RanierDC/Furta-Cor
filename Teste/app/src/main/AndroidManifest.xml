@@ -13,13 +13,25 @@
         android:theme="@style/Theme.Teste"
         tools:targetApi="31">
         <activity
+            android:name=".Email7Act"
+            android:exported="false" />
+        <activity
+            android:name=".Email2Act"
+            android:exported="false" />
+        <activity
+            android:name=".Email6Act"
+            android:exported="false" />
+        <activity
+            android:name=".Email5Act"
+            android:exported="false" />
+        <activity
             android:name=".Email4Act"
             android:exported="false" />
         <activity
             android:name=".Email3Act"
             android:exported="false" />
         <activity
-            android:name=".Email2Act"
+            android:name=".Email8Act"
             android:exported="false" />
         <activity
             android:name=".Email1Act"

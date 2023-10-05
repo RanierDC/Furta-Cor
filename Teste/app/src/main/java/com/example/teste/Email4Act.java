@@ -16,7 +16,7 @@ public class Email4Act extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actemail4);
 
-        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu14);
+        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu16);
         this.voltar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { Email4Act.this.openMainActivity();
             }

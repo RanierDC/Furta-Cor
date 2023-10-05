@@ -16,7 +16,7 @@ public class Email2Act extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actemail2);
 
-        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu15);
+        this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu19);
         this.voltar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { Email2Act.this.openMainActivity();
             }

@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class Email1Act extends AppCompatActivity {
 
-    private ImageButton voltar;
+    private ImageButton voltar, menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

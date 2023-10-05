@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Email4Act">
+    tools:context=".Email5Act">
 
     <TextView
         android:id="@+id/textView2"
@@ -14,15 +14,14 @@
         android:layout_marginTop="35dp"
         android:fontFamily="@font/libre_franklin_semibold"
         android:justificationMode="inter_word"
-        android:text="@string/email4text"
+        android:text="@string/email5text"
         android:textColor="#000"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView54" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView57" />
     <ImageView
-        android:id="@+id/imageView52"
+        android:id="@+id/imageView55"
         android:layout_width="412dp"
         android:layout_height="98dp"
         android:layout_alignParentLeft="true"
@@ -35,7 +34,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/btnmenu16"
+        android:id="@+id/btnmenu17"
         android:layout_width="84dp"
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"
@@ -49,7 +48,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <ImageView
-        android:id="@+id/imageView53"
+        android:id="@+id/imageView56"
         android:layout_width="415dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,14 +60,14 @@
         app:srcCompat="@drawable/barrasuperior" />
 
     <ImageView
-        android:id="@+id/imageView54"
+        android:id="@+id/imageView57"
         android:layout_width="wrap_content"
         android:layout_height="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/headeremail" />
 </androidx.constraintlayout.widget.ConstraintLayout>

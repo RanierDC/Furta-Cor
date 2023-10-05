@@ -5,13 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 
 public class EmailAct extends AppCompatActivity {
 
-    private ImageButton voltar, email1, email2, email3, email4, email5, email6, email7;
+    private ImageButton voltar, email1, email2, email3, email4, email5, email6, email7, email8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +42,31 @@ public class EmailAct extends AppCompatActivity {
 
         this.email4 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg4);
         this.email4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { EmailAct.this.openEmailMsg3();
+            public void onClick(View v) { EmailAct.this.openEmailMsg4();
+            }
+        });
+
+        this.email5 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg5);
+        this.email5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg5();
+            }
+        });
+
+        this.email6 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg6);
+        this.email6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg6();
+            }
+        });
+
+        this.email7 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg7);
+        this.email7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg6();
+            }
+        });
+
+        this.email8 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg8);
+        this.email8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { EmailAct.this.openEmailMsg8();
             }
         });
     }
@@ -72,6 +94,26 @@ public class EmailAct extends AppCompatActivity {
 
     public void openEmailMsg4() {
         Intent intent = new Intent(this, Email4Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg5() {
+        Intent intent = new Intent(this, Email5Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg6() {
+        Intent intent = new Intent(this, Email6Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg7() {
+        Intent intent = new Intent(this, Email7Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMsg8() {
+        Intent intent = new Intent(this, Email8Act.class);
         this.startActivity(intent);
     }
 
