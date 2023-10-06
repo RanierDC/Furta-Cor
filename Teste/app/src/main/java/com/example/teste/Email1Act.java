@@ -21,10 +21,21 @@ public class Email1Act extends AppCompatActivity {
             public void onClick(View v) { Email1Act.this.openMainActivity();
             }
         });
+
+        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnvoltaremail);
+        this.menu.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { Email1Act.this.openEmailMenu();
+            }
+        });
     }
 
     public void openMainActivity() {
         Intent intent = new Intent(this, MenuAct.class);
+        this.startActivity(intent);
+    }
+
+    public void openEmailMenu() {
+        Intent intent = new Intent(this, EmailAct.class);
         this.startActivity(intent);
     }
 

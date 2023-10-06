@@ -1,7 +1,10 @@
 <resources>
+    <!-- INTERNET APP -->
     <string name="app_name">Teste</string>
     <string name="internettext1"><b>Parece que você não está conectado a uma rede.</b></string>
     <string name="internettext2">"<b>Tente: \n   • Desativar o Modo offline \n   • Ativar Dados móveis ou Wi-Fi \n   • Verificar o sinal na sua área</b>"</string>
+
+    <!-- EMAIL APP -->
     <string name="emailtitle1">"Entrega de mercadorias"</string>
     <string name="emailtitle2">"Mercadoria transportada"</string>
     <string name="emailtitle3">"Transportadora"</string>
@@ -20,9 +23,27 @@
     <string name="email8text">"Os funcionários entrará na favela mais tarde, para não levantarmos tanta suspeitas.\nEntraremos por volta das 00:30, então esteja com tudo pronto para agilizar os dois lados do trabalho e mantenha-nos informados sobre os moradores, ou poderá ocorrer atrasar nosso trabalho.\nAo sairmos à caminho da favela avisaremos, esperemos terminar isso o mais rápido possível. Esperamos que os dois lados sejam muito precavidos em suas ações. "</string>
     <string name="emailgambit">"GAMBIT"</string>
     <string name="emailforport">"FORPORT INC"</string>
+    <string name="emailciborgue">"CIBORGUE"</string>
+    <string name="emailsouthern">"SOUTHERN ORG"</string>
     <string name="emailmontanha">"MONTANHA.CORPORATION INDUSTRIAL DELIVERIES"</string>
     <string name="emaildata1">"2 de mai."</string>
     <string name="emaildata2">"26 de abr."</string>
+    <string name="emaildata3">"25 de abr."</string>
+    <string name="emaildata4">"21 de abr."</string>
+    <string name="emaildata5">"19 de abr."</string>
+    <string name="emaildata6">"17 de abr."</string>
+    <string name="emaildata7">"6 de abr."</string>
+
+    <!-- SNAP APP -->
+    <string name="snapc1msg1">" Oi filho vou chegar em \n casa mais tarde hoje"</string>
+    <string name="snapc1msg2">" Pai cadê você?"</string>
+    <string name="snapc1msg3">" Já faz dois dias e você não \n falou mais nada"</string>
+    <string name="snapc1msg4">" Estamos preocupados, manda \n mensagem quando puder"</string>
+    <string name="snapc1msg1h1">"16:12"</string>
+    <string name="snapc1msg1h2">"06:37"</string>
+    <string name="snapc1msg1h3">"06:38"</string>
+    <string name="snapc1msg1dt1">" 7 de maio "</string>
+    <string name="snapc1msg1dt2">" 9 de maio "</string>
 
 
 
