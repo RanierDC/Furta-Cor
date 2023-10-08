@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Note1Act extends AppCompatActivity {
+public class Note3Act extends AppCompatActivity {
 
     private ImageButton voltar, menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actnote1);
+        setContentView(R.layout.actnote3);
 
-        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu22);
+        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu25);
         this.voltar.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { Note1Act.this.openMainActivity();
+            public void onClick(View v) { Note3Act.this.openMainActivity();
             }
         });
 
-        this.menu = (android.widget.ImageButton)this.findViewById(R.id.btnvoltarnote1);
+        this.menu = (android.widget.ImageButton)this.findViewById(R.id.btnvoltarnote3);
         this.menu.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { Note1Act.this.openMenuNoteActivity();
+            public void onClick(View v) { Note3Act.this.openMenuNoteActivity();
             }
         });
     }

@@ -27,10 +27,76 @@ public class NoteMenuAct extends AppCompatActivity {
             public void onClick(View v) { NoteMenuAct.this.openNote1Act();
             }
         });
+
+        this.note2 = (android.widget.ImageButton)this.findViewById(R.id.btnnote2);
+        this.note2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote2Act();
+            }
+        });
+
+        this.note3 = (android.widget.ImageButton)this.findViewById(R.id.btnnote3);
+        this.note3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote3Act();
+            }
+        });
+
+        this.note4 = (android.widget.ImageButton)this.findViewById(R.id.btnnote4);
+        this.note4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote4Act();
+            }
+        });
+
+        this.note5 = (android.widget.ImageButton)this.findViewById(R.id.btnnote5);
+        this.note5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote5Act();
+            }
+        });
+
+        this.note6 = (android.widget.ImageButton)this.findViewById(R.id.btnnote6);
+        this.note6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote6Act();
+            }
+        });
+
+        this.note7 = (android.widget.ImageButton)this.findViewById(R.id.btnnote7);
+        this.note7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote7Act();
+            }
+        });
     }
 
     public void openNote1Act() {
         Intent intent = new Intent(this, Note1Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote2Act() {
+        Intent intent = new Intent(this, Note2Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote3Act() {
+        Intent intent = new Intent(this, Note3Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote4Act() {
+        Intent intent = new Intent(this, Note4Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote5Act() {
+        Intent intent = new Intent(this, Note5Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote6Act() {
+        Intent intent = new Intent(this, Note6Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openNote7Act() {
+        Intent intent = new Intent(this, Note7Act.class);
         this.startActivity(intent);
     }
 
