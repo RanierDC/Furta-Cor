@@ -62,20 +62,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="81dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="21dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnvoltarmsg1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/imgmsg1" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="239dp"
@@ -93,6 +79,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:gravity="left"
+        android:text="@string/snapt1"
+        android:textColor="@color/white"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnvoltarmsg1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="74dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/barra"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:gravity="left"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnvoltarmsg1"
+        app:layout_constraintTop_toTopOf="@+id/textView30" />
 
     <TextView
         android:id="@+id/textView10"
@@ -156,7 +179,7 @@
         android:background="@drawable/msgdata"
         android:fontFamily="@font/libre_franklin_bold"
         android:gravity="center"
-        android:text="@string/snapc1msg1dt1"
+        android:text="@string/snapc1dt1"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -172,7 +195,7 @@
         android:background="@drawable/msgdata"
         android:fontFamily="@font/libre_franklin_bold"
         android:gravity="center"
-        android:text="@string/snapc1msg1dt2"
+        android:text="@string/snapc1dt2"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -187,7 +210,7 @@
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="7dp"
         android:fontFamily="@font/libre_franklin_bold"
-        android:text="@string/snapc1msg1h1"
+        android:text="@string/snapc1h1"
         android:textAlignment="viewEnd"
         android:textColor="@color/grey"
         android:textSize="13sp"
@@ -207,7 +230,7 @@
         android:layout_marginBottom="7dp"
         android:fontFamily="@font/libre_franklin_bold"
         android:gravity="left"
-        android:text="@string/snapc1msg1h2"
+        android:text="@string/snapc1h2"
         android:textColor="@color/grey"
         android:textSize="13sp"
         android:textStyle="bold"
@@ -222,7 +245,7 @@
         android:layout_marginBottom="7dp"
         android:fontFamily="@font/libre_franklin_bold"
         android:gravity="left"
-        android:text="@string/snapc1msg1h2"
+        android:text="@string/snapc1h2"
         android:textColor="@color/grey"
         android:textSize="13sp"
         android:textStyle="bold"
@@ -237,7 +260,7 @@
         android:layout_marginBottom="7dp"
         android:fontFamily="@font/libre_franklin_bold"
         android:gravity="left"
-        android:text="@string/snapc1msg1h3"
+        android:text="@string/snapc1h3"
         android:textColor="@color/grey"
         android:textSize="13sp"
         android:textStyle="bold"

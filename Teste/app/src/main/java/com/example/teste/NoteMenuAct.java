@@ -5,31 +5,40 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-public class NavegadorAct extends AppCompatActivity {
+public class NoteMenuAct extends AppCompatActivity {
 
-    private ImageButton voltar;
-    //TextView txt;
+    private ImageButton voltar, note1, note2, note3, note4, note5, note6, note7;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actnavegador);
+        setContentView(R.layout.actnotemenu);
 
-        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu2);
+        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu21);
         this.voltar.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NavegadorAct.this.openMainActivity();
+            public void onClick(View v) { NoteMenuAct.this.openMainActivity();
             }
         });
+
+        this.note1 = (android.widget.ImageButton)this.findViewById(R.id.btnnote1);
+        this.note1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { NoteMenuAct.this.openNote1Act();
+            }
+        });
+    }
+
+    public void openNote1Act() {
+        Intent intent = new Intent(this, Note1Act.class);
+        this.startActivity(intent);
     }
 
     public void openMainActivity() {
         Intent intent = new Intent(this, MenuAct.class);
         this.startActivity(intent);
     }
+
 
     @Override
     protected void onResume() {

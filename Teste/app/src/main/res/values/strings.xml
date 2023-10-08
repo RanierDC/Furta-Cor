@@ -1,8 +1,11 @@
 <resources>
-    <!-- INTERNET APP -->
+    <!-- NAME APP -->
     <string name="app_name">Teste</string>
+
+    <!-- INTERNET APP -->
     <string name="internettext1"><b>Parece que você não está conectado a uma rede.</b></string>
     <string name="internettext2">"<b>Tente: \n   • Desativar o Modo offline \n   • Ativar Dados móveis ou Wi-Fi \n   • Verificar o sinal na sua área</b>"</string>
+    <string name="internettext3"><b>Pesquisar ou inserir URL</b></string>
 
     <!-- EMAIL APP -->
     <string name="emailtitle1">"Entrega de mercadorias"</string>
@@ -35,17 +38,122 @@
     <string name="emaildata7">"6 de abr."</string>
 
     <!-- SNAP APP -->
+    <!-- CONVERSA 1 -->
     <string name="snapc1msg1">" Oi filho vou chegar em \n casa mais tarde hoje"</string>
     <string name="snapc1msg2">" Pai cadê você?"</string>
     <string name="snapc1msg3">" Já faz dois dias e você não \n falou mais nada"</string>
     <string name="snapc1msg4">" Estamos preocupados, manda \n mensagem quando puder"</string>
-    <string name="snapc1msg1h1">"16:12"</string>
-    <string name="snapc1msg1h2">"06:37"</string>
-    <string name="snapc1msg1h3">"06:38"</string>
-    <string name="snapc1msg1dt1">" 7 de maio "</string>
-    <string name="snapc1msg1dt2">" 9 de maio "</string>
+    <string name="snapc1h1">"16:12"</string>
+    <string name="snapc1h2">"06:37"</string>
+    <string name="snapc1h3">"06:38"</string>
+    <string name="snapc1dt1">" 7 de maio "</string>
+    <string name="snapc1dt2">" 9 de maio "</string>
+
+    <!-- CONVERSA 2 -->
+    <string name="snapc2msg1">" Fala chefe, boa tarde"</string>
+    <string name="snapc2msg2">" Cê tá sabendo de algo?"</string>
+    <string name="snapc2msg3">" Sobre o desaparecimento \n do pessoal na favela"</string>
+    <string name="snapc2msg4">" Fiquei sabendo de uns papos \n através dos moradores"</string>
+    <string name="snapc2msg5">" Vem aqui no morro, vamos \n trocar uma ideia"</string>
+    <string name="snapc2msg6">" Ok chefe"</string>
+    <string name="snapc2dt2">" 2 de maio "</string>
+    <string name="snapc2h1">"09:53"</string>
+    <string name="snapc2h2">"09:54"</string>
+    <string name="snapc2h3">"15:56"</string>
+    <string name="snapc2h4">"11:07"</string>
+    <string name="snapc2h5">"11:10"</string>
+
+    <!-- CONVERSA 3 -->
+    <string name="snapc3msg1">" Opa cara, suave?"</string>
+    <string name="snapc3msg2">" Iai mano"</string>
+    <string name="snapc3msg3">" Cara, eu precisava de \n uma ajuda sua"</string>
+    <string name="snapc3msg4">" Tem algumas coisas estranhas \n acontecendo"</string>
+    <string name="snapc3msg5">" Blz, mais tarde eu vou ae"</string>
+    <string name="snapc3h1">"13:42"</string>
+    <string name="snapc3h2">"13:48"</string>
+    <string name="snapc3h3">"13:53"</string>
+    <string name="snapc3h4">"13:55"</string>
+
+    <!-- CONVERSA 4 -->
+    <string name="snapc4msg1">" Bom dia irmão"</string>
+    <string name="snapc4msg2">" Fala irmão"</string>
+    <string name="snapc4msg3">" Você viu meu pai?"</string>
+    <string name="snapc4msg4">" Não, aconteceu algo?"</string>
+    <string name="snapc4msg5">" Ele não apareceu em casa \n ontem e até agora nenhum \n sinal dele"</string>
+    <string name="snapc4msg6">" Cara, eu vou ver com o chefe e \n qualquer coisa eu te aviso"</string>
+    <string name="snapc4h1">"09:12"</string>
+    <string name="snapc4h2">"09:25"</string>
+    <string name="snapc4h3">"09:44"</string>
+    <string name="snapc4h4">"09:45"</string>
+    <string name="snapc4h5">"09:47"</string>
+    <string name="snapc4h6">"09:48"</string>
+
+    <!-- CONVERSA 5 -->
+    <string name="snapc5msg1">" Ae man"</string>
+    <string name="snapc5msg2">" Ontem a noite tava rolando \n uma movimentação um pouco \n estranha"</string>
+    <string name="snapc5msg3">" Como assim?"</string>
+    <string name="snapc5msg4">" Tinha uns cara que eu nunca \n tinha visto por aqui"</string>
+    <string name="snapc5msg5">" Sairam correndo da favela"</string>
+    <string name="snapc5h1">"10:01"</string>
+    <string name="snapc5h2">"10:05"</string>
+    <string name="snapc5h3">"10:06"</string>
+    <string name="snapc5dt1">" 1 de maio "</string>
+
+    <!-- CONVERSA 6 -->
+    <string name="snapc6msg1">" Ae Vitinho chegou alguma \n coisa aí?"</string>
+    <string name="snapc6msg2">" Aqui ainda não chegou \n nada"</string>
+    <string name="snapc6msg3">" Blz, qualquer coisa dá um \n toque"</string>
+    <string name="snapc6h1">"16:22"</string>
+    <string name="snapc6h2">"16:34"</string>
+    <string name="snapc6h3">"16:36"</string>
+    <string name="snapc6dt1">" 24 de abril "</string>
+
+    <!-- CONVERSA 7 -->
+    <string name="snapc7msg1">" Salva o meu contato ae,\n número novo"</string>
+    <string name="snapc7msg2">" Tá bom"</string>
+    <string name="snapc7msg3">" Ah, chegou umas mercadorias \n aqui"</string>
+    <string name="snapc7msg4">" Eu precisava da sua ajuda \n depois"</string>
+    <string name="snapc7h1">"18:02"</string>
+    <string name="snapc7h2">"18:30"</string>
+    <string name="snapc7h3">"18:31"</string>
+    <string name="snapc7dt1">" 19 de abril "</string>
+
+    <string name="snapt1">"Filho"</string>
+    <string name="snapt2">"Lucas Ciborgue"</string>
+    <string name="snapt3">"Paulinho"</string>
+    <string name="snapt4">"Kaio"</string>
+    <string name="snapt5">"Hugo Bar"</string>
+    <string name="snapt6">"Vitinho"</string>
+    <string name="snapt7">"Edna"</string>
 
 
+    <!-- NOTAS APP -->
+    <string name="notem1">"TODAS AS NOTAS"</string>
+    <string name="notem2">"7 NOTAS"</string>
+
+    <string name="noteq1">"Dia 1 de maio:\n   - Pedro \n   - Davi \n   - Carlos \n   - Bruno \nDia 29 de abril:\n   - João ..."</string>
+    <string name="noteq2">"Mês de Maio:\n   - Água;\n   - Luz;\n   - <strike>Internet.</strike>   \n \n Mês de abril:\n   - Água ..."</string>
+    <string name="noteq3">"Esse mês chegou cerca de 700 materiais; \n Mês passado foram 450; \n Tivemos um aumento ..."</string>
+    <string name="noteq4">"   - Comprar ração\n   - Ligar pra Dona Márcia\n   - Tirar o lixo\n   - Pagar as contas\n   - Comprar o ..."</string>
+    <string name="noteq5">"Mês de maio:\n   - Apenas 1 para chegar(até o momento);\n\nMês de abril:\n   - dia 2 ..."</string>
+    <string name="noteq6">"EMPRESAS:\n\n- FORPORT INC;\n- GAMBIT;\n- SOUTHERN ORG;\n- MONTANHA ..."</string>
+    <string name="noteq7">"Os materiais estão acabando rapidamente, precisaremos de mais dentro de alguns dias ou vamos entrar ..."</string>
+
+    <string name="notemt1">"DESAPARECIDOS"</string>
+    <string name="notemt2">"CONTAS"</string>
+    <string name="notemt3">"NÚMERO DE CARGAS"</string>
+    <string name="notemt4">"PARA FAZER"</string>
+    <string name="notemt5">"CARREGAMENTOS"</string>
+    <string name="notemt6">"PARCERIAS"</string>
+    <string name="notemt7">"FAVELA"</string>
+
+    <string name="notemd1">"1 de maio"</string>
+    <string name="notemd2">"29 de abril"</string>
+    <string name="notemd3">"23 de abril"</string>
+    <string name="notemd4">"18 de abril"</string>
+    <string name="notemd5">"20 de abril"</string>
+    <string name="notemd6">"12 de abril"</string>
+    <string name="notemd7">"1 de abril"</string>
 
 
 

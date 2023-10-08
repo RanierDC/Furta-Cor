@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".NoteMenuAct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="45dp">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout2"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                    <ImageButton
+                        android:id="@+id/btnnote2"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq2"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notem1"
+                    android:textColor="@color/green1"
+                    android:textSize="31sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="9dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notem2"
+                    android:textColor="@color/green2"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt1"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout1"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout1" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt3"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout3"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout3"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout3" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt5"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout5"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout5"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout5" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt7"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout7"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout7"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout7" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt6"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout6"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout6"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout6" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt4"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout4"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout4"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout4" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd1"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView36"
+                    app:layout_constraintStart_toStartOf="@+id/textView36"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd3"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView40"
+                    app:layout_constraintStart_toStartOf="@+id/textView40"
+                    app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd5"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView44"
+                    app:layout_constraintStart_toStartOf="@+id/textView44"
+                    app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="150dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd7"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/textView48"
+                    app:layout_constraintStart_toStartOf="@+id/textView48"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd6"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView46"
+                    app:layout_constraintStart_toStartOf="@+id/textView46"
+                    app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd4"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView41"
+                    app:layout_constraintStart_toStartOf="@+id/textView41"
+                    app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemd2"
+                    android:textColor="@color/green2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView37"
+                    app:layout_constraintStart_toStartOf="@+id/textView37"
+                    app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/notemt2"
+                    android:textColor="@color/green1"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout2"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout2"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                    <ImageButton
+                        android:id="@+id/btnnote1"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq1"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout3"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+                    <ImageButton
+                        android:id="@+id/btnnote3"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq3"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout4"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView39">
+
+                    <ImageButton
+                        android:id="@+id/btnnote4"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq4"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout5"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView42">
+
+                    <ImageButton
+                        android:id="@+id/btnnote5"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq5"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout6"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView43">
+
+                    <ImageButton
+                        android:id="@+id/btnnote6"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq6"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout7"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView45">
+
+                    <ImageButton
+                        android:id="@+id/btnnote7"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/btnnote"
+                        android:fontFamily="@font/libre_franklin_bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/libre_franklin_bold"
+                        android:text="@string/noteq7"
+                        android:textColor="#807A7A"
+                        android:textSize="16.7sp"
+                        app:layout_constraintStart_toEndOf="@+id/btnvoltaremail"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="412dp"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/barrainferior"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnmenu21"
+        android:layout_width="84dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/btnmenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

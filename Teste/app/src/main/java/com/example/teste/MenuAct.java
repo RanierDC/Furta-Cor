@@ -11,38 +11,42 @@ import android.widget.ImageButton;
 
 public class MenuAct extends AppCompatActivity {
 
-    private ImageButton snap, navegador, email, calculator;
+    private ImageButton snap, navegador, email, calculator, notes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.actmenu);
 
-        this.snap= (android.widget.ImageButton)this.findViewById(R.id.btnsnap);
+        this.snap = (android.widget.ImageButton)this.findViewById(R.id.btnsnap);
         this.snap.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 MenuAct.this.openSnapMenuAct();
             }
         });
 
-        this.navegador= (android.widget.ImageButton)this.findViewById(R.id.btnnavegador);
+        this.navegador = (android.widget.ImageButton)this.findViewById(R.id.btnnavegador);
         this.navegador.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 MenuAct.this.openNavegadorAct();
             }
         });
 
-        this.email= (android.widget.ImageButton)this.findViewById(R.id.btnemail);
+        this.email = (android.widget.ImageButton)this.findViewById(R.id.btnemail);
         this.email.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { MenuAct.this.openEmailAct();
             }
         });
 
-        this.calculator= (android.widget.ImageButton)this.findViewById(R.id.btncalculadora);
+        this.calculator = (android.widget.ImageButton)this.findViewById(R.id.btncalculadora);
         this.calculator.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { MenuAct.this.openCalculatorAct();
+            }
+        });
+
+        this.notes = (android.widget.ImageButton)this.findViewById(R.id.btnnotes);
+        this.notes.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { MenuAct.this.openNotesAct();
             }
         });
     }
@@ -64,6 +68,11 @@ public class MenuAct extends AppCompatActivity {
 
     public void openCalculatorAct() {
         Intent intent = new Intent(this, CalculatorAct.class);
+        this.startActivity(intent);
+    }
+
+    public void openNotesAct() {
+        Intent intent = new Intent(this, NoteMenuAct.class);
         this.startActivity(intent);
     }
 
