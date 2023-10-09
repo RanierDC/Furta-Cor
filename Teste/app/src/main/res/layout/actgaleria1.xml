@@ -50,7 +50,7 @@
         app:srcCompat="@drawable/barrasuperior" />
 
     <ImageButton
-        android:id="@+id/btnmenu29"
+        android:id="@+id/btnmenugf1"
         android:layout_width="84dp"
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"

@@ -9,12 +9,18 @@ import android.widget.ImageButton;
 
 public class GaleriaMenuAct extends AppCompatActivity {
 
-    private ImageButton voltar, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11;
+    private ImageButton menu, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitygaleriamenu);
+
+        this.menu= (android.widget.ImageButton) this.findViewById(R.id.btnmenug1);
+        this.menu.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { GaleriaMenuAct.this.openMainActivity();
+            }
+        });
 
         this.img1= (android.widget.ImageButton) this.findViewById(R.id.btnimg1);
         this.img1.setOnClickListener(new View.OnClickListener() {
@@ -135,6 +141,11 @@ public class GaleriaMenuAct extends AppCompatActivity {
 
     public void openImg11() {
         Intent intent = new Intent(this, Galeria11Act.class);
+        this.startActivity(intent);
+    }
+
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MenuAct.class);
         this.startActivity(intent);
     }
 

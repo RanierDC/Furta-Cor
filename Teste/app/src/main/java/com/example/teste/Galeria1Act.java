@@ -6,15 +6,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageButton;
 
 public class Galeria1Act extends AppCompatActivity {
 
     float x1,x2,y1,y2;
+    private ImageButton menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actgaleria1);
+
+        this.menu= (android.widget.ImageButton) this.findViewById(R.id.btnmenugf1);
+        this.menu.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { Galeria1Act.this.openMainActivity();
+            }
+        });
+    }
+
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MenuAct.class);
+        this.startActivity(intent);
     }
 
     public boolean onTouchEvent(MotionEvent touchEvent){
