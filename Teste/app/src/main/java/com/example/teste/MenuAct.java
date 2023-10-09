@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class MenuAct extends AppCompatActivity {
 
-    private ImageButton snap, navegador, email, calculator, notes;
+    private ImageButton snap, navegador, email, calculator, notes, galeria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,12 @@ public class MenuAct extends AppCompatActivity {
             public void onClick(View v) { MenuAct.this.openNotesAct();
             }
         });
+
+        this.galeria = (android.widget.ImageButton)this.findViewById(R.id.btngaleria);
+        this.galeria.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { MenuAct.this.openGaleriaAct();
+            }
+        });
     }
 
     public void openSnapMenuAct() {
@@ -73,6 +79,11 @@ public class MenuAct extends AppCompatActivity {
 
     public void openNotesAct() {
         Intent intent = new Intent(this, NoteMenuAct.class);
+        this.startActivity(intent);
+    }
+
+    public void openGaleriaAct() {
+        Intent intent = new Intent(this, GaleriaMenuAct.class);
         this.startActivity(intent);
     }
 

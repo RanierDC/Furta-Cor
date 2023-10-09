@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Teste"
         tools:targetApi="31">
         <activity
+            android:name=".Galeria11Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria10Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria9Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria8Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria7Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria6Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria5Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria4Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria3Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria2Act"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria1Act"
+            android:exported="false" />
+        <activity
+            android:name=".GaleriaMenuAct"
+            android:exported="false" />
+        <activity
             android:name=".Note7Act"
             android:exported="false" />
         <activity

@@ -163,5 +163,10 @@
     <string name="noteact6">"EMPRESAS:\n\n- FORPORT INC;\n- GAMBIT;\n- SOUTHERN ORG;\n- MONTANHA.CORPORATION INDUSTRIAL DELIVERES;\n- MASTERY IND."</string>
     <string name="noteact7">"Os materiais estão acabando rapidamente, precisaremos de mais dentro de alguns dias ou vamos entrar em crise. E isso pode prejudicar demais a favela."</string>
 
+    <!-- GALERIA APP -->
+    <string name="galeriat1">"GALERIA"</string>
+    <string name="galeriat2">"MAIO"</string>
+    <string name="galeriat3">"ABRIL"</string>
+
 
 </resources>
