@@ -25,43 +25,43 @@ public class SnapMenuAct extends AppCompatActivity {
             }
         });
 
-        this.msg1 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg1);
+        this.msg1 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg1);
         this.msg1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg1Activity();
             }
         });
 
-        this.msg2 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg2);
+        this.msg2 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg2);
         this.msg2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg2Activity();
             }
         });
 
-        this.msg3 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg3);
+        this.msg3 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg3);
         this.msg3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg3Activity();
             }
         });
 
-        this.msg4 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg4);
+        this.msg4 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg4);
         this.msg4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg4Activity();
             }
         });
 
-        this.msg5 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg5);
+        this.msg5 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg5);
         this.msg5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg5Activity();
             }
         });
 
-        this.msg6 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg6);
+        this.msg6 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg6);
         this.msg6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg6Activity();
             }
         });
 
-        this.msg7 = (android.widget.ImageButton)this.findViewById(R.id.btnmsg7);
+        this.msg7 = (android.widget.ImageButton)this.findViewById(R.id.btnsnapmsg7);
         this.msg7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { SnapMenuAct.this.openMsg7Activity();
             }

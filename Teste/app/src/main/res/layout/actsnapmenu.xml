@@ -22,11 +22,11 @@
     <ScrollView
         android:layout_width="414dp"
         android:layout_height="820dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="44dp"
         android:overScrollMode="never"
         android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -36,94 +36,440 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="wrap_content"
-                android:layout_height="136dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                app:srcCompat="@drawable/imgtextsnap" />
 
-            <ImageButton
-                android:id="@+id/btnmsg1"
-                android:layout_width="387.5dp"
+            <FrameLayout
+                android:layout_width="212dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/libre_franklin_black"
+                    android:text="S"
+                    android:textColor="@color/white"
+                    android:textSize="105dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="NAP"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="60dp" />
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="385dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/barra" />
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/btnmsgarthur" />
+                android:layout_marginTop="30dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg2"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg1"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:id="@+id/imageView96"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu1"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt1"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc1dt2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsglucas" />
+                android:layout_marginTop="9dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg3"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg2"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu2"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt2"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc1dt1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsgpaulinho" />
+                android:layout_marginTop="9dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg4"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg3"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu3"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt3"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc2dt2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsgkaio" />
+                android:layout_marginTop="9dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg5"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg4"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu4"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt4"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc2dt2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsghugo" />
+                android:layout_marginTop="9dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg6"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg5"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu5"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt5"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc5dt1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsgvitinho" />
+                android:layout_marginTop="9dp">
 
-            <ImageButton
-                android:id="@+id/btnmsg7"
-                android:layout_width="387.5dp"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg6"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu6"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt6"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc6dt1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="388dp"
                 android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/btnmsgedna" />
+                android:layout_marginTop="9dp">
 
-            <ImageView
-                android:id="@+id/imgquebra"
-                android:layout_width="387.5dp"
-                android:layout_height="5dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+                <ImageButton
+                    android:id="@+id/btnsnapmsg7"
+                    android:layout_width="388dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnmsgbckg" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/imgsnapctt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapmenu7"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapt7"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/libre_franklin_bold"
+                    android:text="@string/snapc7dt1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="385dp"
+                android:layout_height="6dp"
                 android:layout_gravity="center"
+                android:background="@drawable/barra"
                 android:layout_marginTop="25dp"
-                android:layout_marginBottom="75dp"
-                android:background="@drawable/imgquebra" />
+                android:layout_marginBottom="100dp"/>
+
 
         </LinearLayout>
     </ScrollView>

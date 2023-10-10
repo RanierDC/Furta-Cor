@@ -14,5 +14,7 @@
     <color name="darkgrey1">#807A7A</color>
     <color name="darkred1">#800718</color>
     <color name="darkred2">#560216</color>
+    <color name="greyblue">#141D1F</color>
+    <color name="darkgrey2">#504F4D</color>
 
 </resources>

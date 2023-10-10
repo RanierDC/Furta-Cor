@@ -8,6 +8,7 @@
     <string name="internettext3"><b>Pesquisar ou inserir URL</b></string>
 
     <!-- EMAIL APP -->
+    <string name="emailtitle0">"CAIXA DE ENTRADA"</string>
     <string name="emailtitle1">"Entrega de mercadorias"</string>
     <string name="emailtitle2">"Mercadoria transportada"</string>
     <string name="emailtitle3">"Transportadora"</string>
@@ -38,6 +39,14 @@
     <string name="emaildata7">"6 de abr."</string>
 
     <!-- SNAP APP -->
+    <string name="snapmenu1">"Estamos preocupados, m..."</string>
+    <string name="snapmenu2">"Ok chefe"</string>
+    <string name="snapmenu3">"Blz, mais tarde eu vou ae"</string>
+    <string name="snapmenu4">"Cara, eu vou ver com o c..."</string>
+    <string name="snapmenu5">"Saindo rapidamente da f..."</string>
+    <string name="snapmenu6">"Blz, qualquer coisa dá u..."</string>
+    <string name="snapmenu7">"Eu precisava da sua aju..."</string>
+
     <!-- CONVERSA 1 -->
     <string name="snapc1msg1">" Oi filho vou chegar em \n casa mais tarde hoje"</string>
     <string name="snapc1msg2">" Pai cadê você?"</string>
