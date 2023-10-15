@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasscodeAct">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hanks.passcodeview.PasscodeView
+            android:id="@+id/passcodeView"
+            android:layout_width="412dp"
+            android:layout_height="818dp"
+            android:background="#00BCD4"
+            app:correctStateColor="#71bb4d"
+            app:firstInputTip="Seu PIN contém 4 dígitos"
+            app:layout_constraintBottom_toTopOf="@+id/imageView111"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView112"
+            app:layout_constraintVertical_bias="0.0"
+            app:normalStateColor="#FFFFFF"
+            app:numberTextColor="#222222"
+            app:passcodeLength="4"
+            app:passcodeViewType="set_passcode"
+            app:wrongStateColor="#ea2b46"/>
+
+        <ImageView
+            android:id="@+id/imageView112"
+            android:layout_width="415dp"
+            android:layout_height="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.629"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/barrasuperior" />
+
+        <ImageView
+            android:id="@+id/imageView111"
+            android:layout_width="412dp"
+            android:layout_height="98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView39"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/barrainferior"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/btnmenugf12"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/btnmenu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.977" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

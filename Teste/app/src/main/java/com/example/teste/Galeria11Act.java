@@ -11,7 +11,13 @@ import android.widget.ImageButton;
 public class Galeria11Act extends AppCompatActivity {
 
     float x1, x2, y1, y2;
-    private ImageButton menu;
+    private ImageButton menu, voltar;
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        overridePendingTransition(0, 0);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +28,17 @@ public class Galeria11Act extends AppCompatActivity {
             public void onClick(View v) { Galeria11Act.this.openMainActivity();
             }
         });
+
+        this.voltar= (android.widget.ImageButton) this.findViewById(R.id.btnvoltarglr11);
+        this.voltar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { Galeria11Act.this.openGaleriaMenuActivity();
+            }
+        });
+    }
+
+    public void openGaleriaMenuActivity() {
+        Intent intent = new Intent(this, GaleriaMenuAct.class);
+        this.startActivity(intent);
     }
 
     public void openMainActivity() {

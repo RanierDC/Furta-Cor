@@ -22,49 +22,49 @@ public class EmailAct extends AppCompatActivity {
             }
         });
 
-        this.email1 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg1);
+        this.email1 = (android.widget.ImageButton) this.findViewById(R.id.btnsnapmsg1);
         this.email1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg1();
             }
         });
 
-        this.email2 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg2);
+        this.email2 = (android.widget.ImageButton) this.findViewById(R.id.btnemail2);
         this.email2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg2();
             }
         });
 
-        this.email3 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg3);
+        this.email3 = (android.widget.ImageButton) this.findViewById(R.id.btnemail3);
         this.email3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg3();
             }
         });
 
-        this.email4 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg4);
+        this.email4 = (android.widget.ImageButton) this.findViewById(R.id.btnemail4);
         this.email4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg4();
             }
         });
 
-        this.email5 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg5);
+        this.email5 = (android.widget.ImageButton) this.findViewById(R.id.btnemail5);
         this.email5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg5();
             }
         });
 
-        this.email6 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg6);
+        this.email6 = (android.widget.ImageButton) this.findViewById(R.id.btnemail6);
         this.email6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg6();
             }
         });
 
-        this.email7 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg7);
+        this.email7 = (android.widget.ImageButton) this.findViewById(R.id.btnemail7);
         this.email7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg6();
             }
         });
 
-        this.email8 = (android.widget.ImageButton) this.findViewById(R.id.btnmsg8);
+        this.email8 = (android.widget.ImageButton) this.findViewById(R.id.btnemail8);
         this.email8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { EmailAct.this.openEmailMsg8();
             }

@@ -4,10 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 
 public class SnapMenuAct extends AppCompatActivity {
@@ -67,6 +64,7 @@ public class SnapMenuAct extends AppCompatActivity {
             }
         });
     }
+
 
     public void openMainActivity() {
         Intent intent = new Intent(this, MenuAct.class);

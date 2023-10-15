@@ -42,6 +42,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -54,9 +55,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end|center"
+                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/libre_franklin_bold"
                     android:text="NAP"
-                    android:layout_marginTop="15dp"
                     android:textColor="@color/white"
                     android:textSize="60dp" />
             </FrameLayout>

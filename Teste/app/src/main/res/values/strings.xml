@@ -9,6 +9,7 @@
 
     <!-- EMAIL APP -->
     <string name="emailtitle0">"CAIXA DE ENTRADA"</string>
+
     <string name="emailtitle1">"Entrega de mercadorias"</string>
     <string name="emailtitle2">"Mercadoria transportada"</string>
     <string name="emailtitle3">"Transportadora"</string>
@@ -17,6 +18,10 @@
     <string name="emailtitle6">"Segurança das mercadorias"</string>
     <string name="emailtitle7">"Novos produtos Entregues"</string>
     <string name="emailtitle8">"Horário dos funcionários"</string>
+
+    <string name="emailmontanha2">"MONTANHA.CORP..."</string>
+
+
     <string name="email1text">" Atenção especial é solicitada ao conteúdo desta mensagem, pois trata-se de um assunto delicado e sigiloso. \n No intuito de alertar e assegurar a integridade de todas as partes envolvidas, gostaria de informar sobre uma entrega de carga incomum e sensível que está prestes a ocorrer. Devo ressaltar que as informações aqui contidas são estritamente confidenciais e requerem a mais alta discrição. \n Conforme acordado, o carregamento de ferro contrabandeado, proveniente de fontes que não podem ser mencionadas abertamente, está previsto para chegar ao seu destino dentro dos próximos dias. É fundamental que todos os procedimentos de segurança sejam meticulosamente seguidos para garantir o êxito dessa operação tão delicada."</string>
     <string name="email2text">"Vimos aqui novamente para informá-lo que sua mercadoria foi transportada e está à caminho de sua localização dentre de alguns dias. Em caso de ocorrer algum imprevisto entraremos em contato. Prentendemos entregar uma mercadoria em boas condições. \n Se tiver dúvidas solicitamos entrar em contato conosco, faremos de tudo para ajudar-lhe."</string>
     <string name="email3text">"Olá somos a transportadora FORPORT INC, estamos enviando esta mensagem para informá-lo de que sua mercadoria já foi preparada, estamos organizando para enviar à entrega e conseguir chegar na sua localização de forma mais segura e em boas condições. Dentro de um dia, podemos dizer que estará à caminho, então entraremos em contato novamente. \n \nAgradecemos pela sua parceria e confiança."</string>
@@ -34,9 +39,10 @@
     <string name="emaildata2">"26 de abr."</string>
     <string name="emaildata3">"25 de abr."</string>
     <string name="emaildata4">"21 de abr."</string>
-    <string name="emaildata5">"19 de abr."</string>
-    <string name="emaildata6">"17 de abr."</string>
-    <string name="emaildata7">"6 de abr."</string>
+    <string name="emaildata5">"20 de abr."</string>
+    <string name="emaildata6">"19 de abr."</string>
+    <string name="emaildata7">"17 de abr."</string>
+    <string name="emaildata8">"6 de abr."</string>
 
     <!-- SNAP APP -->
     <string name="snapmenu1">"Estamos preocupados, m..."</string>
@@ -176,6 +182,20 @@
     <string name="galeriat1">"GALERIA"</string>
     <string name="galeriat2">"MAIO"</string>
     <string name="galeriat3">"ABRIL"</string>
+    <string name="btnemail1">"Botão para acessar o email "</string>
+
+    <!-- PASTA SEGURA -->
+    <string name="pstitulo">"PASTA SEGURA"</string>
+    <string name="psmastery">"MASTERY IND"</string>
+    <string name="pseu">"EU"</string>
+
+    <string name="psmsg1">"Acordo de materiais"</string>
+    <string name="psmsg2">"Recompensa pelas trocas"</string>
+    <string name="psmsg3">"Toma cuidado"</string>
+    <string name="psmsg4">"Informações da entrega"</string>
+    <string name="psmsg5">"Informações da favela"</string>
+    <string name="psmsg6">"Negociação de invasão"</string>
+
 
 
 </resources>

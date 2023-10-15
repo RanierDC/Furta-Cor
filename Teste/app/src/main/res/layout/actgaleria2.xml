@@ -8,6 +8,15 @@
     tools:context=".Galeria2Act">
 
     <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/galeriaheader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+    <ImageView
         android:id="@+id/imageView67"
         android:layout_width="412dp"
         android:layout_height="98dp"
@@ -34,6 +43,30 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/barrasuperior" />
 
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:gravity="end"
+        android:text="@string/notemd1"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView100"
+        app:layout_constraintStart_toStartOf="@+id/imageView100"
+        app:layout_constraintTop_toBottomOf="@+id/imageView79" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="120dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/barra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
     <ImageButton
         android:id="@+id/btnmenugf2"
         android:layout_width="84dp"
@@ -57,5 +90,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <ImageButton
+        android:id="@+id/btnvoltarglr2"
+        android:layout_width="16dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:background="@drawable/btnvoltaremail"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView97"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView97" />
 </androidx.constraintlayout.widget.ConstraintLayout>
