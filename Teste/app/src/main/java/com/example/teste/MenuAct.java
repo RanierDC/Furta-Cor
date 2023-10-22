@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 
 public class MenuAct extends AppCompatActivity {
@@ -74,7 +72,7 @@ public class MenuAct extends AppCompatActivity {
     }
 
     public void openEmailAct() {
-        Intent intent = new Intent(this, EmailAct.class);
+        Intent intent = new Intent(this, EmailMenuAct.class);
         this.startActivity(intent);
     }
 

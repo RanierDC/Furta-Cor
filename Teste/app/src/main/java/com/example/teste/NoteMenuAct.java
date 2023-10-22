@@ -7,97 +7,103 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import java.util.ArrayList;
+
 public class NoteMenuAct extends AppCompatActivity {
 
-    private ImageButton voltar, note1, note2, note3, note4, note5, note6, note7;
+    private ArrayList<String> textList;
+    private ImageButton menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actnotemenu);
 
-        this.voltar = (android.widget.ImageButton)this.findViewById(R.id.btnmenu21);
-        this.voltar.setOnClickListener(new View.OnClickListener() {
+        ImageButton button1 = findViewById(R.id.btnnote1);
+        ImageButton button2 = findViewById(R.id.btnnote2);
+        ImageButton button3 = findViewById(R.id.btnnote3);
+        ImageButton button4 = findViewById(R.id.btnnote4);
+        ImageButton button5 = findViewById(R.id.btnnote5);
+        ImageButton button6 = findViewById(R.id.btnnote6);
+        ImageButton button7 = findViewById(R.id.btnnote7);
+
+        this.menu = (android.widget.ImageButton) this.findViewById(R.id.btnnotemenu);
+        this.menu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { NoteMenuAct.this.openMainActivity();
             }
         });
 
-        this.note1 = (android.widget.ImageButton)this.findViewById(R.id.btnnote1);
-        this.note1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote1Act();
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt1),
+                        getString(R.string.noteact1)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note2 = (android.widget.ImageButton)this.findViewById(R.id.btnnote2);
-        this.note2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote2Act();
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt2),
+                        getString(R.string.noteact2)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note3 = (android.widget.ImageButton)this.findViewById(R.id.btnnote3);
-        this.note3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote3Act();
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt3),
+                        getString(R.string.noteact3)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note4 = (android.widget.ImageButton)this.findViewById(R.id.btnnote4);
-        this.note4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote4Act();
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt4),
+                        getString(R.string.noteact4)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note5 = (android.widget.ImageButton)this.findViewById(R.id.btnnote5);
-        this.note5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote5Act();
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt5),
+                        getString(R.string.noteact5)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note6 = (android.widget.ImageButton)this.findViewById(R.id.btnnote6);
-        this.note6.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote6Act();
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt6),
+                        getString(R.string.noteact6)
+                };
+                openActivity2(texts);
             }
         });
-
-        this.note7 = (android.widget.ImageButton)this.findViewById(R.id.btnnote7);
-        this.note7.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { NoteMenuAct.this.openNote7Act();
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String[] texts = {
+                        getString(R.string.notemt7),
+                        getString(R.string.noteact7)
+                };
+                openActivity2(texts);
             }
         });
-    }
-
-    public void openNote1Act() {
-        Intent intent = new Intent(this, Note1Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote2Act() {
-        Intent intent = new Intent(this, Note2Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote3Act() {
-        Intent intent = new Intent(this, Note3Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote4Act() {
-        Intent intent = new Intent(this, Note4Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote5Act() {
-        Intent intent = new Intent(this, Note5Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote6Act() {
-        Intent intent = new Intent(this, Note6Act.class);
-        this.startActivity(intent);
-    }
-
-    public void openNote7Act() {
-        Intent intent = new Intent(this, Note7Act.class);
-        this.startActivity(intent);
     }
 
     public void openMainActivity() {
@@ -105,6 +111,11 @@ public class NoteMenuAct extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    private void openActivity2(String[] texts) {
+        Intent intent = new Intent(this, Note1Act.class);
+        intent.putExtra("texts", texts);
+        startActivity(intent);
+    }
 
     @Override
     protected void onResume() {
@@ -113,7 +124,7 @@ public class NoteMenuAct extends AppCompatActivity {
         hideNavigationBar();
     }
 
-    private void hideNavigationBar(){
+    private void hideNavigationBar() {
         this.getWindow().getDecorView()
                 .setSystemUiVisibility(
                         View.SYSTEM_UI_FLAG_FULLSCREEN |

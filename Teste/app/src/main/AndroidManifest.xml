@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Teste"
         tools:targetApi="31">
         <activity
+            android:name=".PSmsg1Act"
+            android:exported="false" />
+        <activity
             android:name=".PastaSeguraAct"
             android:exported="false" />
         <activity
@@ -134,7 +137,7 @@
             android:name=".Msg1Act"
             android:exported="true" />
         <activity
-            android:name=".EmailAct"
+            android:name=".EmailMenuAct"
             android:exported="false" />
         <activity
             android:name=".NavegadorAct"

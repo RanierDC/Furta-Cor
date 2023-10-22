@@ -14,7 +14,7 @@
             android:id="@+id/passcodeView"
             android:layout_width="412dp"
             android:layout_height="818dp"
-            android:background="#00BCD4"
+            android:background="@color/black2"
             app:correctStateColor="#71bb4d"
             app:firstInputTip="Seu PIN contém 4 dígitos"
             app:layout_constraintBottom_toTopOf="@+id/imageView111"
@@ -24,10 +24,10 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView112"
             app:layout_constraintVertical_bias="0.0"
             app:normalStateColor="#FFFFFF"
-            app:numberTextColor="#222222"
+            app:numberTextColor="@color/black2"
             app:passcodeLength="4"
             app:passcodeViewType="set_passcode"
-            app:wrongStateColor="#ea2b46"/>
+            app:wrongStateColor="#ea2b46" />
 
         <ImageView
             android:id="@+id/imageView112"
@@ -57,7 +57,7 @@
             tools:ignore="MissingConstraints" />
 
         <ImageButton
-            android:id="@+id/btnmenugf12"
+            android:id="@+id/btnmenupasscode"
             android:layout_width="84dp"
             android:layout_height="60dp"
             android:layout_alignParentLeft="true"

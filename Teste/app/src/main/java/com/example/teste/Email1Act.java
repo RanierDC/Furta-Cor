@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Email1Act extends AppCompatActivity {
 
@@ -15,6 +17,27 @@ public class Email1Act extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actemail1);
+
+        TextView textView1 = findViewById(R.id.textemailtitle1);
+        TextView textView2 = findViewById(R.id.textemailtitle2);
+        TextView textView3 = findViewById(R.id.textemailtitle3);
+        TextView textView4 = findViewById(R.id.textemailmsg);
+        ImageView imageView = findViewById(R.id.imgiconemail);
+
+        String[] texts = getIntent().getStringArrayExtra("texts");
+
+        int imageResourceId = getIntent().getIntExtra("imageResourceId", 0);
+
+        if (texts != null && texts.length >= 4) {
+            textView1.setText(texts[0]);
+            textView2.setText(texts[1]);
+            textView3.setText(texts[2]);
+            textView4.setText(texts[3]);
+        }
+
+        if (imageResourceId != 0) {
+            imageView.setImageResource(imageResourceId);
+        }
 
         this.voltar = (android.widget.ImageButton) this.findViewById(R.id.btnmenu12);
         this.voltar.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +58,7 @@ public class Email1Act extends AppCompatActivity {
     }
 
     public void openEmailMenu() {
-        Intent intent = new Intent(this, EmailAct.class);
+        Intent intent = new Intent(this, EmailMenuAct.class);
         this.startActivity(intent);
     }
 

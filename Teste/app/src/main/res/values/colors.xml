@@ -17,6 +17,10 @@
     <color name="greyblue">#141D1F</color>
     <color name="darkgrey2">#504F4D</color>
     <color name="darkgrey3">#626160</color>
+    <color name="darkgrey4">#434343</color>
+    <color name="darkgrey5">#2C2C2C</color>
+    <color name="white2">#E8E8E8</color>
+    <color name="black2">#0C0A0A</color>
 
 
 </resources>

@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.hanks.passcodeview.PasscodeView;
 
 public class PasscodeAct extends AppCompatActivity {
+
+    private ImageButton menu;
 
     PasscodeView passcodeView;
 
@@ -17,6 +20,11 @@ public class PasscodeAct extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actpasscode);
+            this.menu= (android.widget.ImageButton) this.findViewById(R.id.btnmenupasscode);
+            this.menu.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) { PasscodeAct.this.openMainActivity();
+                }
+            });
 
         passcodeView = findViewById(R.id.passcodeView);
 
@@ -33,6 +41,11 @@ public class PasscodeAct extends AppCompatActivity {
                         startActivity(new Intent(PasscodeAct.this,PastaSeguraAct.class));
                     }
                 });
+    }
+
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MenuAct.class);
+        this.startActivity(intent);
     }
     
     @Override

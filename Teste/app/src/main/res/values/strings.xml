@@ -16,13 +16,20 @@
     <string name="emailtitle4">"Atenção"</string>
     <string name="emailtitle5">"Preparando a mercadoria"</string>
     <string name="emailtitle6">"Segurança das mercadorias"</string>
-    <string name="emailtitle7">"Novos produtos Entregues"</string>
+    <string name="emailtitle7">"Novos produtos entregues"</string>
     <string name="emailtitle8">"Horário dos funcionários"</string>
 
     <string name="emailmontanha2">"MONTANHA.CORP..."</string>
 
+    <string name="emailt1">"Entrega de\nmercadorias"</string>
+    <string name="emailt2">"Mercadoria\ntransportada"</string>
+    <string name="emailt5">"Preparando a\nmercadoria"</string>
+    <string name="emailt6">"Segurança das\nmercadorias"</string>
+    <string name="emailt7">"Novos produtos\nentregues"</string>
+    <string name="emailt8">"Horário dos\nfuncionários"</string>
 
-    <string name="email1text">" Atenção especial é solicitada ao conteúdo desta mensagem, pois trata-se de um assunto delicado e sigiloso. \n No intuito de alertar e assegurar a integridade de todas as partes envolvidas, gostaria de informar sobre uma entrega de carga incomum e sensível que está prestes a ocorrer. Devo ressaltar que as informações aqui contidas são estritamente confidenciais e requerem a mais alta discrição. \n Conforme acordado, o carregamento de ferro contrabandeado, proveniente de fontes que não podem ser mencionadas abertamente, está previsto para chegar ao seu destino dentro dos próximos dias. É fundamental que todos os procedimentos de segurança sejam meticulosamente seguidos para garantir o êxito dessa operação tão delicada."</string>
+
+    <string name="email1text">"Atenção especial é solicitada ao conteúdo desta mensagem, pois trata-se de um assunto delicado e sigiloso. \nNo intuito de alertar e assegurar a integridade de todas as partes envolvidas, gostaria de informar sobre uma entrega de carga incomum e sensível que está prestes a ocorrer. Devo ressaltar que as informações aqui contidas são estritamente confidenciais e requerem a mais alta discrição. \nConforme acordado, o carregamento de ferro contrabandeado, proveniente de fontes que não podem ser mencionadas abertamente, está previsto para chegar ao seu destino dentro dos próximos dias. É fundamental que todos os procedimentos de segurança sejam meticulosamente seguidos para garantir o êxito dessa operação tão delicada."</string>
     <string name="email2text">"Vimos aqui novamente para informá-lo que sua mercadoria foi transportada e está à caminho de sua localização dentre de alguns dias. Em caso de ocorrer algum imprevisto entraremos em contato. Prentendemos entregar uma mercadoria em boas condições. \n Se tiver dúvidas solicitamos entrar em contato conosco, faremos de tudo para ajudar-lhe."</string>
     <string name="email3text">"Olá somos a transportadora FORPORT INC, estamos enviando esta mensagem para informá-lo de que sua mercadoria já foi preparada, estamos organizando para enviar à entrega e conseguir chegar na sua localização de forma mais segura e em boas condições. Dentro de um dia, podemos dizer que estará à caminho, então entraremos em contato novamente. \n \nAgradecemos pela sua parceria e confiança."</string>
     <string name="email4text">"Aqui é o chefe, fique em alerta, pois tem mercadorias para chegar, estou entrando em contato por esse email para avisá-lo. Quando a carga chegar agilize e arrume as coisas.\nDepois vou ver o andamento de tudo, espero não encontrar nenhum problema. Entre em contato se algo estiver fora de controle."</string>
@@ -34,7 +41,7 @@
     <string name="emailforport">"FORPORT INC"</string>
     <string name="emailciborgue">"CIBORGUE"</string>
     <string name="emailsouthern">"SOUTHERN ORG"</string>
-    <string name="emailmontanha">"MONTANHA.CORPORATION INDUSTRIAL DELIVERIES"</string>
+    <string name="emailmontanha">"MONTANHA.CORPORATION INDUSTRIAL"</string>
     <string name="emaildata1">"2 de mai."</string>
     <string name="emaildata2">"26 de abr."</string>
     <string name="emaildata3">"25 de abr."</string>
@@ -190,12 +197,45 @@
     <string name="pseu">"EU"</string>
 
     <string name="psmsg1">"Acordo de materiais"</string>
-    <string name="psmsg2">"Recompensa pelas trocas"</string>
-    <string name="psmsg3">"Toma cuidado"</string>
-    <string name="psmsg4">"Informações da entrega"</string>
-    <string name="psmsg5">"Informações da favela"</string>
-    <string name="psmsg6">"Negociação de invasão"</string>
+    <string name="psmsg1t1">"Acordo de \nmateriais"</string>
+    <string name="psmsg1t2">"MASTERY IND"</string>
+    <string name="psmsg1t3">"4 de mai."</string>
+    <string name="psmsg1t4">"ATENÇÃO!\n\nCaso desejem prosseguir com a recepção contínua dos recursos necessários para sua sobrevivência, seremos forçados a tomar medidas mais drásticas. As atuais circunstâncias estão nos causando sérios prejuízos, e, por conseguinte, precisamos adotar uma abordagem mais incisiva. Se optarem por não cooperar, lamentamos informar que enfrentarão adversidades substanciais, sem que haja qualquer preocupação de nossa parte com as dificuldades que possam encontrar.\n\nNo caso de vazamento de informações relacionadas a essa conversa, tomaremos providências para identificar e localizar os responsáveis, em um momento que lhes será totalmente inesperado. Recomendamos que levem isso a sério e ajam com a devida cautela.\n\nAguardamos sua compreensão e cooperação."</string>
 
+    <string name="psmsg2">"Recompensas pelas trocas"</string>
+    <string name="psmsg2t1">"Recompensas \npelas trocas"</string>
+    <string name="psmsg2t2">"MASTERY IND"</string>
+    <string name="psmsg2t3">"29 de abr."</string>
+    <string name="psmsg2t4">"No corrente mês de abril, as transações foram excepcionalmente vantajosas, proporcionando aos nossos parceiros residentes em determinadas áreas urbanas o acesso a uma ampliação dos recursos disponíveis, notavelmente aprimorados em termos de qualidade.\n\nÉ de nosso entendimento que esta aliança tem-se mostrado altamente proveitosa, uma vez que a carência de recursos e dificuldades enfrentadas anteriormente têm sido substancialmente mitigadas. Esperamos ansiosamente a continuidade e, se possível, o aperfeiçoamento dessa parceria, considerando que o crescimento substancial de nossos lucros tem sido extremamente gratificante."</string>
+
+    <string name="psmsg3">"Toma cuidado"</string>
+    <string name="psmsg3t1">"Toma cuidado"</string>
+    <string name="psmsg3t2">"GAMBIT"</string>
+    <string name="psmsg3t3">"20 de abr."</string>
+    <string name="psmsg3t4">"Parece haver boatos que estão recebendo muitos recursos e tem muitas pessoas sumindo da favela.\n\nComo resolverá isso agora, já que as pessoas perceberam aos poucos a situação e vão começar a fazer ligações com você, pois, eis o braço direito do chefe da favela e sempre recebe essa mercadorias.\n\nE não acha estranho que da noite pro dia a favela parou de passar tantas necessidades. Quero só ver como vai sair dessa.  "</string>
+
+    <string name="psmsg4">"Informações da entrega"</string>
+    <string name="psmsg4t1">"Informações\nda entrega"</string>
+    <string name="psmsg4t2">"MONTANHA.CORPORATION INDUSTRIAL"</string>
+    <string name="psmsg4t3">"19 de abr."</string>
+    <string name="psmsg4t4">"A entrega de mercadorias confidênciais que está prevista para ser realizada em 2 de maio, será acompanhada por um grande número de seguranças, cerca de uns 7, então pedimos para não tentarem  nada de desnecessário ou sofrerá grandes consequências e não queremos nada de ruim para os nossos cliente.\nPresumimos que tenha acatado o aviso e não fará nada, além de receber a carga tranquilamente.\n\nAgradecemos a sua compreensão."</string>
+
+    <string name="psmsg5">"Informações da favela"</string>
+    <string name="psmsg5t1">"Informações\nda favela"</string>
+    <string name="psmsg5t2">"EU"</string>
+    <string name="psmsg5t3">"17 de abr."</string>
+    <string name="psmsg5t4">"Parece que você podem invadir a favela nesta terça-feira, por volta das 23:20.\nOs moradores trabalharam bastante hoje, então todos estão muito cansados, eles nem perceberão ao invadirem a favela.\nNo entanto, apenas peço que sejam rápidos e discretos para não haver suspeitas. Escolham as casas daqueles que estão sozinhos, essas casas ficam localizadas ao fundo da favela.\nSendo assim, ao saírem acatem com a parte do acordo de vocês, responsabilizo-me por qualquer imprevisto da parte dos moradores, logo, escolha os seus melhores funcionários."</string>
+
+    <string name="psmsg6">"Negociação de invasão"</string>
+    <string name="psmsg6t1">"Negociação \nde invasão"</string>
+    <string name="psmsg6t2">"EU"</string>
+    <string name="psmsg6t3">"6 de abr."</string>
+    <string name="psmsg6t4">"Ok, posso tentar dar um jeito, mas e se os moradores desconfiarem dessas invasões eu posso acabar perdendo meu posto ou até mesmo morrer, então quando as coisas começarem  a ficar preocupantes seria bom parar.\n\nEu só exijo que não cheguem perto da minha família, meu chefe e companheiros."</string>
+
+    <string name="psmsg7t1">"Negociação \nde invasão"</string>
+    <string name="psmsg7t2">"GAMBIT"</string>
+    <string name="psmsg7t3">"5 de abr."</string>
+    <string name="psmsg7t4">"Sem muita enrolação vamos direito ao caso, para agilizar a entrada na favela, você vai ter que dar o seu jeito e eu dou o meu aqui. Para conseguir suas mercadorias é o de menos, mas as coisas não são de graça, por isso queremos pessoas que tralharam para nós.\n\nE vocês já sofrem, então não vai fazer diferença se morrerem nessa favela ou trabalhando para nós.\n\nBasta fazermos as coisas de forma certa e tudo por debaixo dos panos, que ninguém ficará sabendo. Conto com a sua colaboração."</string>
 
 
 </resources>
