@@ -29,7 +29,7 @@ public class PasscodeAct extends AppCompatActivity {
         passcodeView = findViewById(R.id.passcodeView);
 
         passcodeView.setPasscodeLength(4)
-                .setLocalPasscode("1234")
+                .setLocalPasscode("2004")
                 .setListener(new PasscodeView.PasscodeViewListener(){
                     @Override
                     public void onFail(){

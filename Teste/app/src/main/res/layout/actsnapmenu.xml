@@ -88,7 +88,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconarthur" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconciborgue" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -201,7 +201,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconpaulinho" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -257,7 +257,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconkaio" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -313,7 +313,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconhugo" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -369,7 +369,7 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:background="@drawable/imgsnapctt" />
+                    android:background="@drawable/imgiconvitinho" />
 
                 <TextView
                     android:layout_width="wrap_content"
