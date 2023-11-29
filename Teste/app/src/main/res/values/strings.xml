@@ -1,6 +1,6 @@
 <resources>
     <!-- NAME APP -->
-    <string name="app_name">Teste</string>
+    <string name="app_name">Furta-cor</string>
 
     <!-- INTERNET APP -->
     <string name="internettext1"><b>Parece que você não está conectado a uma rede.</b></string>

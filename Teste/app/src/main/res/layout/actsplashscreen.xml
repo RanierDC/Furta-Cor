@@ -7,4 +7,14 @@
     android:background="@color/black"
     tools:context=".SplashScreenAct">
 
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="208dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imglogotrinity" />
 </androidx.constraintlayout.widget.ConstraintLayout>

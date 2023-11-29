@@ -14,5 +14,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Teste"
+rootProject.name = "Furta-cor"
 include ':app'
