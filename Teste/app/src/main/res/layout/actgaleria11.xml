@@ -69,9 +69,9 @@
 
     <ImageView
         android:id="@+id/imageView92"
-        android:layout_width="409dp"
+        android:layout_width="wrap_content"
         android:layout_height="290dp"
-        android:background="@drawable/galeriaimg11"
+        android:background="@drawable/imggame3"
         app:layout_constraintBottom_toTopOf="@+id/imageView90"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

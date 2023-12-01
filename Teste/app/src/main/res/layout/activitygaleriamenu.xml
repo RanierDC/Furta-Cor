@@ -13,7 +13,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/galeriaimg1"
+        android:background="@drawable/imggame8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView65" />
 
@@ -23,7 +23,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/galeriaimg2"
+        android:background="@drawable/imggame6"
         app:layout_constraintStart_toEndOf="@+id/btnimg1"
         app:layout_constraintTop_toBottomOf="@+id/textView65" />
 
@@ -33,7 +33,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/galeriaimg3"
+        android:background="@drawable/imggame7"
         app:layout_constraintStart_toEndOf="@+id/btnimg2"
         app:layout_constraintTop_toBottomOf="@+id/textView65" />
 
@@ -179,7 +179,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toEndOf="@+id/btnimg5"
         app:layout_constraintTop_toBottomOf="@+id/textView71"
-        android:background="@drawable/galeriaimg6" />
+        android:background="@drawable/imggame2" />
 
     <ImageButton
         android:id="@+id/btnimg4"
@@ -187,7 +187,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/galeriaimg4"
+        android:background="@drawable/imggame5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView71" />
 
@@ -199,7 +199,7 @@
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnimg4"
-        android:background="@drawable/galeriaimg8" />
+        android:background="@drawable/imggame12" />
 
     <ImageButton
         android:id="@+id/btnimg9"
@@ -209,7 +209,7 @@
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toEndOf="@+id/btnimg8"
         app:layout_constraintTop_toBottomOf="@+id/btnimg5"
-        android:background="@drawable/galeriaimg9" />
+        android:background="@drawable/imggame11" />
 
     <ImageButton
         android:id="@+id/btnimg10"
@@ -219,7 +219,7 @@
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toEndOf="@+id/btnimg9"
         app:layout_constraintTop_toBottomOf="@+id/btnimg6"
-        android:background="@drawable/galeriaimg10" />
+        android:background="@drawable/imggame10" />
 
     <ImageButton
         android:id="@+id/btnimg11"
@@ -227,9 +227,9 @@
         android:layout_height="88dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
+        android:background="@drawable/imggame3"
         app:layout_constraintStart_toEndOf="@+id/btnimg10"
-        app:layout_constraintTop_toBottomOf="@+id/btnimg7"
-        android:background="@drawable/galeriaimg11" />
+        app:layout_constraintTop_toBottomOf="@+id/btnimg7" />
 
     <ImageButton
         android:id="@+id/btnimg5"
@@ -239,7 +239,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toEndOf="@+id/btnimg4"
         app:layout_constraintTop_toBottomOf="@+id/textView71"
-        android:background="@drawable/galeriaimg5" />
+        android:background="@drawable/imggame9" />
 
     <ImageButton
         android:id="@+id/btnimg7"
@@ -247,7 +247,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/galeriaimg7"
+        android:background="@drawable/imggame1"
         app:layout_constraintStart_toEndOf="@+id/btnimg6"
         app:layout_constraintTop_toBottomOf="@+id/textView71" />
 

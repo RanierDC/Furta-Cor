@@ -83,12 +83,12 @@
 
     <ImageView
         android:id="@+id/imageView80"
-        android:layout_width="409dp"
+        android:layout_width="640dp"
         android:layout_height="290dp"
-        android:background="@drawable/galeriaimg3"
+        android:background="@drawable/imggame7"
         app:layout_constraintBottom_toTopOf="@+id/imageView71"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView99" />
 
