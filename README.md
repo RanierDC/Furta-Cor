@@ -54,12 +54,23 @@ Contém as mesmas barras que existem no menu principal, irão ocupar a maioria d
 Ao clicar em um destes FrameLayout, é direcionado a uma outra atividade onde terá acesso a uma conversa detalhada. Os elementos desta página são bem simples, sendo um ScrollView com TextView’s com diferentes cores backgrounds.
 </p>
 
+<h1 align="center">
+  <a><img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/0ce249a8-0679-4abc-be64-b24f53f85f80"  height ="550"></a> <img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/52030f78-67e7-4a82-90b2-cfaeadfe5f5f"  height ="550"></a> <a><img src="https://github.com/LuquetaZ/SuperMarioWorldGuide/assets/101645521/f6c2038f-985f-4352-95c8-0dc1dc3fb987"  height ="550" </a>
+     <br>
+ </h1>
+
+
 # E-MAIL
 
 <p>O Email proporcionará uma visão profunda dos comunicados e correspondências do pai do protagonista. Com uma interface intuitiva, os usuários podem explorar diversas mensagens sobre compras, assuntos profissionais e até mesmo conversas com alguns membros do grupo revolucionário. A variedade de e-mails oferece uma narrativa rica, fornecendo insights sobre a vida do personagem antes do desaparecimento, adicionando camadas de complexidade à trama.
   
 A forma em que este aplicativo foi construído se assemelha muito ao Snap, onde tem uma ImageView e um TextView que informam onde o usuário está, e logo abaixo tem um ScrollView com elementos FrameLayout contendo ImageView e TextView’s.
 </p>
+
+<h1 align="center">
+  <a><img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/d0fba66d-4eb5-4bd6-b8ea-146828ac1738"  height ="550"></a> <img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/56c85d2e-36cc-4420-aef0-5ba2fd7bd295"  height ="550"></a> <a><img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/5f6f5001-e826-488a-ac29-6613b9e927e7"  height ="550" </a>
+     <br>
+ </h1>
 
 # PASTA SEGURA
 
@@ -69,6 +80,11 @@ Na tela para colocar a senha, os elementos são uma ImageView e um TextView no t
 
 Caso o usuário insira a senha correta, ele levará a activity que mais importa deste projeto, tendo a mesma estrutura do Email, com a mudanças de uma paleta de cor mais acinzentada para uma com tonalidades mais escuras, dando um tom de mistério e suspense.
 </p>
+
+<h1 align="center">
+  <a><img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/d0fba66d-4eb5-4bd6-b8ea-146828ac1738"  height ="550"></a> <img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/56c85d2e-36cc-4420-aef0-5ba2fd7bd295"  height ="550"></a> <a><img src="https://github.com/LuquetaZ/Furta-corApp/assets/101645521/5f6f5001-e826-488a-ac29-6613b9e927e7"  height ="550" </a>
+     <br>
+ </h1>
 
 # GALERIA
 
